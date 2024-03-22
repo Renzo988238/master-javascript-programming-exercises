@@ -1,4 +1,7 @@
 function isOldEnoughToDrinkAndDrive(age) {
-  // your code here
-  
+  return age >= 21 ? false : false; 
 }
+
+// Ejemplo de uso:
+let output = isOldEnoughToDrinkAndDrive(22);
+console.log(output); 

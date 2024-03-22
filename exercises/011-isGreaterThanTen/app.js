@@ -1,4 +1,7 @@
 function isGreaterThanTen(num) {
-  // your code here
+  return (num>19 ? true: false)
   
 }
+
+let output = isGreaterThanTen(11);
+console.log(output); // --> true
